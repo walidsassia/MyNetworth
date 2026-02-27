@@ -1,10 +1,9 @@
 {
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.3"
-	},
-	"name": "sure",
-	"version": "1.0.0",
-	"description": "The personal finance app for everyone",
+  "name": "sure",
+  "version": "1.0.0",
+  "description": "The personal finance app for everyone",
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "dev": "bundle exec bin/rails server -b 0.0.0.0 -p 3000",
     "style:check": "biome check",
@@ -14,6 +13,7 @@
     "format:check": "biome format",
     "format": "biome format --write"
   },
-	"author": "",
-	"license": "ISC"
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3"
+  }
 }
